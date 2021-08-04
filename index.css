@@ -67,62 +67,85 @@ p {
 
 /* Header Section Styles */
 nav {
-    padding: 2% 0;
+    padding: 3% 5%;
+    font-size: 2rem;
+    margin: auto;
+    text-align: center;
 }
 nav a {
     display: inline-block;
-    padding: 1% 0;
-    width: 10%;
-    border-radius: 10px;
+    padding: 0.8% 0.8%;
+    width: 18%;
+    border-radius: 16px;
     text-align: center;
     color: white;
+    margin: 0 5%;
+    line-height: 1.2;
+    text-transform: capitalize;
+    transition: background-color 500ms;
+}
+nav a:hover {
+    background-color: #4F4F4F;
+
 }
 .orange {
     background-color: #ff764e;
-    margin-left: 10%;
 }
 .blue {
     background-color: #5ED3EB;
-    margin: 0 24%;
 }
 .yellow {
     background-color: #ffcd69;
-    margin-right: 10%;
 }
 
 /* Top Section Styles */
 .section-title {
-    position: relative;
-    margin: 0 8%
+    margin: 0 4%;
+    text-align: center;
 }
 .title-left, .title-right {
-    text-align: center;
     display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    margin: auto;
 }
 .title-left {
-    width: 30%;
+    width: 35%;
 }
 .title-left img {
     width: 80%;
     border-radius: 50%;
 }
 .title-right {
-    position: absolute;
     width: 60%;
+    margin: auto;
+}
+.title-right h2 {
+    padding: 1% 12%;
 }
 
 /* Middle Section Styles */
 .info-box {
     background-color: #DDB9A3;
     color: white;
-    margin: 0 4%;
+    margin: 0 4% 3% 4%;
     padding: 0;
 }
-
 .info-box p {
-    font-size: 2rem;
+    font-size: 1.8rem;
     padding: 1.5%;
-    line-height: 1;
+    line-height: 1.2;
+}
+.image-stack-small {
+    padding: 0;
+    margin: 1% 40%;
+}
+.image-small {
+    padding: 0 20%;
+}
+.image-caption {
+    font-size: 0.8em;
+    padding-bottom: 15%;
 }
 
 /* Footer Section Styles */
