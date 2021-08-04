@@ -102,3 +102,11 @@ nav a {
     width: 60%;
     top: 45%;
 }
+
+/* Footer Section Styles */
+.image-cover {
+    background-image: url("/assets/footer_img.jpg");
+    background-position: 50% 20%;
+    background-size: cover;
+    height: 25vh;
+}
