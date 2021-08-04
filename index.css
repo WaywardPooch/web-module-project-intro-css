@@ -41,7 +41,7 @@ blockquote, q {
     padding: 0;
     margin: 0;
     max-width: 100%;
-    border: solid 1px grey;
+    /* border: solid 1px grey; */
     font-family: 'Roboto Mono', sans-serif;
 }
 
@@ -70,10 +70,13 @@ a {
 p {
     text-align: center;
 }
-
+span {
+    font-weight: 800;
+    color: #282828;
+}
 /* Header Section Styles */
 nav {
-    padding: 1% 5%;
+    padding: 3% 5%;
     font-size: 2rem;
     margin: 0 auto;
     text-align: center;
@@ -89,20 +92,21 @@ nav a {
     line-height: 1.2;
     text-transform: capitalize;
     transition: background-color 500ms;
+    vertical-align: middle;
 }
 nav a:hover {
     background-color: #4F4F4F;
 }
 .orange {
     background-color: #ff764e;
-    margin-right: 12%;
+    margin-right: 8%;
 }
 .blue {
     background-color: #5ED3EB;
 }
 .yellow {
     background-color: #ffcd69;
-    margin-left: 12%;
+    margin-left: 8%;
 }
 
 /* Main Site-Content Container */
@@ -152,10 +156,12 @@ nav a:hover {
 }
 .image-stack-small {
     padding: 0;
-    margin: 1% 35%;
+    margin: 1% auto;
+    max-width: 300px;
 }
 .image-small {
-    padding: 0 20%;
+    padding: 0 30%;
+    text-align: center;
 }
 .image-caption {
     font-size: 0.8em;
